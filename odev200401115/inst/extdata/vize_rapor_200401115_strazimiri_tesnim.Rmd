@@ -38,4 +38,17 @@ Veri seti olarak, "Online Retail II" adlı veri setini kullanmayı planlıyorum.
 
 Anahtar performans göstergeleri ve rapor sonuçlarını içeren analiz raporunu hazırlayacağım. Rapor, müşterinin iş süreçlerini iyileştirmek ve veri odaklı kararlar almak için stratejik bilgiler sunacak ve rekabet avantajı sağlayacak çözümlerin geliştirilmesine yardımcı olacaktır.
 
+```{r}
+library(odev200401115)
+c<-odev200401115::veri_ithali()
+grafik_olusturma(c)
+
+```
+
+
+
+
+
+
+
 
