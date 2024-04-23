@@ -1,0 +1,54 @@
+---
+title: "Vize_Rapor_200401115_strazimiri_tesnim"
+output: html_document
+date: "2024-04-23"
+---
+
+
+#Q.1 İş, Problem ve İhtiyaç Tanımı
+
+##Q1.1 İş Tanımı
+
+DataGenius Danışmanlık, veri bilimi danışmanlık hizmetleri sunan bir şirkettir. Müşterilere, veri analizi, makine öğrenimi, yapay zeka ve büyük veri çözümleri konularında danışmanlık sağlamaktayız. Şirketimiz, çeşitli sektörlerden işletmelere ve kurumlara hizmet vererek, veri odaklı karar alma süreçlerini iyileştirmelerine yardımcı olur.
+
+##Q1.2.Problem ve İhtiyaç
+
+DataGenius Danışmanlık olarak, müşterilerimizle çalışırken karşılaştığımız temel problem, karmaşık iş süreçlerinin etkin bir şekilde yönetilmesi ve veri odaklı karar alma süreçlerinin iyileştirilmesidir. Birçok işletme ve kurum, sahip oldukları büyük miktardaki veriyi etkin bir şekilde kullanamamakta ve bu veriden değerli bilgiler çıkaramamaktadır. Bu durum, işletmelerin rekabet avantajını kaybetmelerine veya potansiyel fırsatları kaçırmalarına neden olmaktadır.
+
+##Q1.3.Çözüm Önerisi
+
+Çözüm önerisi olarak, müşterilerimizin iş süreçlerini iyileştirmek ve veri odaklı karar alma süreçlerini optimize etmek için kapsamlı bir veri analizi yapmamız gerekmektedir. Bunun için, çeşitli veri kaynaklarından elde edilen çeşitli veri setlerini kullanarak analiz yapabiliriz.
+
+# Planlanan Analiz
+
+## Veri Seti Tanımı
+
+Veri seti olarak, "Online Retail II" adlı veri setini kullanmayı planlıyorum. Bu veri seti, 01/12/2009 ile 09/12/2011 tarihleri arasında İngiltere'de gerçekleştirilen online perakende satışlarını içermektedir.
+
+## Planlanan Analiz Adımları
+
+1. Veri setinin yüklenmesi ve keşfedilmesi.
+2. Satış trendlerinin analizi.
+3. Ürün performansının değerlendirilmesi.
+4. Müşteri segmentasyonu ve davranış analizi.
+5. Promosyon etkisinin incelenmesi.
+6. Müşteri memnuniyeti ve geri dönüşlerin analizi.
+
+# Analiz Raporu
+
+Anahtar performans göstergeleri ve rapor sonuçlarını içeren analiz raporunu hazırlayacağım. Rapor, müşterinin iş süreçlerini iyileştirmek ve veri odaklı kararlar almak için stratejik bilgiler sunacak ve rekabet avantajı sağlayacak çözümlerin geliştirilmesine yardımcı olacaktır.
+
+```{r}
+library(odev200401115)
+c<-odev200401115::veri_ithali()
+grafik_olusturma(c)
+
+```
+
+
+
+
+
+
+
+
